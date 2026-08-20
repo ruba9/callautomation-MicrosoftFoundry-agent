@@ -1,0 +1,14 @@
+## .NET build output
+bin/
+obj/
+*.user
+.vs/
+
+## Local secrets / environment overrides (never commit real connection strings or keys)
+appsettings.Development.json
+appsettings.*.local.json
+.env
+
+## OS
+.DS_Store
+Thumbs.db
